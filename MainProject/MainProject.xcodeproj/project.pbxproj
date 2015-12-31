@@ -10,7 +10,6 @@
 		382B9CCEBEA68B6237941465 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046335D471C26DB912E7E4D /* libPods.a */; };
 		FAAF8B721C33F839002E622B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF8B711C33F839002E622B /* main.m */; };
 		FAAF8B751C33F839002E622B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF8B741C33F839002E622B /* AppDelegate.m */; };
-		FAAF8B781C33F839002E622B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF8B771C33F839002E622B /* ViewController.m */; };
 		FAAF8B7B1C33F839002E622B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAF8B791C33F839002E622B /* Main.storyboard */; };
 		FAAF8B7D1C33F839002E622B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAF8B7C1C33F839002E622B /* Images.xcassets */; };
 		FAAF8B801C33F839002E622B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAF8B7E1C33F839002E622B /* LaunchScreen.xib */; };
@@ -33,10 +32,8 @@
 		FAAF8B6C1C33F839002E622B /* MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAF8B701C33F839002E622B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAF8B711C33F839002E622B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAAF8B731C33F839002E622B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FAAF8B741C33F839002E622B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAAF8B761C33F839002E622B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAAF8B771C33F839002E622B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAAF8B731C33F839002E622B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		FAAF8B741C33F839002E622B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		FAAF8B7A1C33F839002E622B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAF8B7C1C33F839002E622B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAAF8B7F1C33F839002E622B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -82,6 +79,177 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA48A9941C342AD3008725B8 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A9A71C342ADC008725B8 /* Appdelegate */,
+				FA48A9951C342AD3008725B8 /* Categroies */,
+				FA48A9961C342AD3008725B8 /* MVC */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		FA48A9951C342AD3008725B8 /* Categroies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categroies;
+			sourceTree = "<group>";
+		};
+		FA48A9961C342AD3008725B8 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A9971C342AD3008725B8 /* catPage */,
+				FA48A99B1C342AD3008725B8 /* HomePage */,
+				FA48A99F1C342AD3008725B8 /* lovePage */,
+				FA48A9A31C342AD3008725B8 /* personPage */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		FA48A9971C342AD3008725B8 /* catPage */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A9981C342AD3008725B8 /* Controllers */,
+				FA48A9991C342AD3008725B8 /* Models */,
+				FA48A99A1C342AD3008725B8 /* Views */,
+			);
+			path = catPage;
+			sourceTree = "<group>";
+		};
+		FA48A9981C342AD3008725B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA48A9991C342AD3008725B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA48A99A1C342AD3008725B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA48A99B1C342AD3008725B8 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A99C1C342AD3008725B8 /* Controllers */,
+				FA48A99D1C342AD3008725B8 /* Models */,
+				FA48A99E1C342AD3008725B8 /* Views */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		FA48A99C1C342AD3008725B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA48A99D1C342AD3008725B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA48A99E1C342AD3008725B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA48A99F1C342AD3008725B8 /* lovePage */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A9A01C342AD3008725B8 /* Controllers */,
+				FA48A9A11C342AD3008725B8 /* Models */,
+				FA48A9A21C342AD3008725B8 /* Views */,
+			);
+			path = lovePage;
+			sourceTree = "<group>";
+		};
+		FA48A9A01C342AD3008725B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA48A9A11C342AD3008725B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA48A9A21C342AD3008725B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA48A9A31C342AD3008725B8 /* personPage */ = {
+			isa = PBXGroup;
+			children = (
+				FA48A9A41C342AD3008725B8 /* Controllers */,
+				FA48A9A51C342AD3008725B8 /* Models */,
+				FA48A9A61C342AD3008725B8 /* Views */,
+			);
+			path = personPage;
+			sourceTree = "<group>";
+		};
+		FA48A9A41C342AD3008725B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA48A9A51C342AD3008725B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA48A9A61C342AD3008725B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA48A9A71C342ADC008725B8 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF8B731C33F839002E622B /* AppDelegate.h */,
+				FAAF8B741C33F839002E622B /* AppDelegate.m */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		FA48A9A81C342B17008725B8 /* InterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF8B791C33F839002E622B /* Main.storyboard */,
+				FAAF8B7C1C33F839002E622B /* Images.xcassets */,
+				FAAF8B7E1C33F839002E622B /* LaunchScreen.xib */,
+			);
+			name = InterfaceBuilder;
+			sourceTree = "<group>";
+		};
 		FAAF8B631C33F839002E622B = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +273,8 @@
 		FAAF8B6E1C33F839002E622B /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
-				FAAF8B731C33F839002E622B /* AppDelegate.h */,
-				FAAF8B741C33F839002E622B /* AppDelegate.m */,
-				FAAF8B761C33F839002E622B /* ViewController.h */,
-				FAAF8B771C33F839002E622B /* ViewController.m */,
-				FAAF8B791C33F839002E622B /* Main.storyboard */,
-				FAAF8B7C1C33F839002E622B /* Images.xcassets */,
-				FAAF8B7E1C33F839002E622B /* LaunchScreen.xib */,
+				FA48A9A81C342B17008725B8 /* InterfaceBuilder */,
+				FA48A9941C342AD3008725B8 /* class */,
 				FAAF8B6F1C33F839002E622B /* Supporting Files */,
 			);
 			path = MainProject;
@@ -294,7 +457,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAF8B781C33F839002E622B /* ViewController.m in Sources */,
 				FAAF8B751C33F839002E622B /* AppDelegate.m in Sources */,
 				FAAF8B721C33F839002E622B /* main.m in Sources */,
 			);
